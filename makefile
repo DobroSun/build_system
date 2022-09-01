@@ -12,6 +12,8 @@ gitignore := "\
 *.s[a-z][a-z]   \n\
 *.pdb		\n\
 *.exe		\n\
+*.vs		\n\
+*.obj		\n\
 "
 
 remote := $(url)$(project)$(extension)
