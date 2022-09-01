@@ -1,6 +1,6 @@
- *.s[a-z][a-z]   
- *.pdb		
- *.exe		
- *.vs		
- *.obj		
+*.s[a-z][a-z]   
+*.pdb		
+*.exe		
+*.vs		
+*.obj		
  
