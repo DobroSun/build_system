@@ -1,1 +1,2 @@
-cl main.cpp Advapi32.lib Ole32.lib OleAut32.lib Shell32.lib User32.lib
+@echo off
+cl main.cpp project.cpp /Zi /DEBUG -nologo -Gm- -GR- -GS- -Gs9999999 -EHa- -Oi -link -nodefaultlib -subsystem:windows kernel32.lib -stack:0x100000,0x100000
