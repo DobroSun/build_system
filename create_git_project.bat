@@ -3,6 +3,7 @@ set remote="https://github.com/DobroSun/%1.git"
 
 copy  build\.gitignore .
 mkdir src
+mkdir build
 
 git init
 git submodule add https://github.com/DobroSun/std.git
