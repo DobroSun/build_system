@@ -1,4 +1,5 @@
 #include <windows.h>
+#include "std/pch.cpp"
 
 int wmain(HINSTANCE Instance, LPWSTR CommandLine) {
 
